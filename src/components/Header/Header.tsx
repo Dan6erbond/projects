@@ -22,7 +22,6 @@ export default function Header() {
                 <Navbar.Toggle/>
                 <Navbar.Collapse className="justify-content-end"/>
             </Navbar>
-            <br/>
         </React.Fragment>
     );
 }

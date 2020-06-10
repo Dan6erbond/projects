@@ -24,6 +24,7 @@ function App() {
         </Route>
         <Route>
           <div style={{ textAlign: "center" }}>
+            <br />
             <h3>404:</h3>
             <h4>Not Found</h4>
             <br />
