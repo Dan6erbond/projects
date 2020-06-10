@@ -1,17 +1,17 @@
-import "./IDPA.scss";
-import React from "react";
-import { motion } from "framer-motion";
-import VizSensor from "react-visibility-sensor";
-import { Col, Container, Row, Breadcrumb } from "react-bootstrap";
-import ScrollDown from "../../../ScrollDown/ScrollDown";
 import {
   faDownload,
   faExternalLinkAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Banner from "../../../Banner/Banner";
+import { motion } from "framer-motion";
+import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import VizSensor from "react-visibility-sensor";
+import Banner from "../../Banner/Banner";
+import Breadcrumbs from "../../Breadcrumbs";
+import ScrollDown from "../../ScrollDown/ScrollDown";
 import { SoftwareAspectsGraph } from "./Graphs";
-import Breadcrumbs from "../../../Breadcrumbs";
+import "./IDPA.scss";
 
 export default function IDPA() {
   const [textVisible, setTextVisible] = React.useState<boolean>(false);
@@ -236,7 +236,7 @@ export default function IDPA() {
         ]}
       />
       <Banner
-        imageSrc="/res/img/projects/idpa/employees-computer.jpg"
+        imageSrc="res/img/projects/idpa/employees-computer.jpg"
         bannerHeight="60vh"
       >
         <h2 className="banner-title">
@@ -249,7 +249,7 @@ export default function IDPA() {
         </p>
         <a
           className="btn btn-outline-primary flat-button"
-          href="/res/docs/IDPA/Informatikmitteleinsatz_in_Unternehmen_v5.pdf"
+          href="res/docs/IDPA/Informatikmitteleinsatz_in_Unternehmen_v5.pdf"
           download
         >
           <FontAwesomeIcon icon={faDownload} /> Download
@@ -290,7 +290,7 @@ export default function IDPA() {
                     className="idpa-image"
                     alt="IDPA | Informatikmitteleinsatz in Unternehmen"
                     height="auto"
-                    src="/res/img/projects/idpa/idpa.jpg"
+                    src="res/img/projects/idpa/idpa.jpg"
                   />
                 </motion.div>
               </Col>
@@ -476,14 +476,14 @@ export default function IDPA() {
               <ul>
                 <li>
                   <FontAwesomeIcon icon={faDownload} />{" "}
-                  <a href="/res/docs/IDPA/moodle.py" download>
+                  <a href="res/docs/IDPA/moodle.py" download>
                     Moodle Downloader
                   </a>
                 </li>
                 <li>
                   <FontAwesomeIcon icon={faDownload} />{" "}
                   <a
-                    href="/res/docs/IDPA/notification_on_file_delete.json"
+                    href="res/docs/IDPA/notification_on_file_delete.json"
                     download
                   >
                     Microsoft Flow: Send E-Mail Notification on File Deletion in
@@ -492,7 +492,7 @@ export default function IDPA() {
                 </li>
                 <li>
                   <FontAwesomeIcon icon={faDownload} />{" "}
-                  <a href="/res/docs/IDPA/save_email_attachments.json" download>
+                  <a href="res/docs/IDPA/save_email_attachments.json" download>
                     Microsoft Flow: Save E-Mail Attachments in OneDrive
                   </a>
                 </li>

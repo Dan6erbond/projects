@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Layout from "./components/Layout";
 import { Switch, Route, Link, useLocation } from "react-router-dom";
-import IDPA from "./components/pages/Projects/IDPA/IDPA";
+import IDPA from "./components/pages/IDPA/IDPA";
 import Projects from "./components/pages/Projects/Projects";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";

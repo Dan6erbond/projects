@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import ProjectCard from "./ProjectCard/ProjectCard";
+import ProjectCard from "../../ProjectCard/ProjectCard";
 import "./Projects.scss";
 
 export default function Projects() {
@@ -18,7 +18,7 @@ export default function Projects() {
                   className="idpa-image"
                   alt="IDPA | Informatikmitteleinsatz in Unternehmen"
                   height="auto"
-                  src="/res/img/projects/idpa/idpa.jpg"
+                  src="res/img/projects/idpa/idpa.jpg"
                 />
               }
             >
@@ -48,7 +48,7 @@ export default function Projects() {
                   style={{ width: "90%", minWidth: "100px", maxWidth: "300px" }}
                   alt="Fuzzle"
                   height="auto"
-                  src="/res/img/projects/fuzzle/logo_text.png"
+                  src="res/img/projects/fuzzle/logo_text.png"
                 />
               }
             >
@@ -75,7 +75,7 @@ export default function Projects() {
                   style={{ width: "90%", minWidth: "100px", maxWidth: "300px" }}
                   alt="ASP.NET"
                   height="auto"
-                  src="/res/img/icons/asp.net.png"
+                  src="res/img/icons/asp.net.png"
                 />
               }
             >

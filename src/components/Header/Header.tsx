@@ -11,12 +11,12 @@ export default function Header() {
                 <Link to="/">
                     <Navbar.Brand>
                         <img alt="logo"
-                             src="/res/img/logo/logo - green.png"
+                             src="res/img/logo/logo - green.png"
                              width="30"
                              height="30"
                              className="d-inline-block align-top"
                         />{' '}
-                        RaviAnand
+                        Projects
                     </Navbar.Brand>
                 </Link>
                 <Navbar.Toggle/>
